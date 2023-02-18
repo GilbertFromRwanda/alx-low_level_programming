@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+/**
+ *main -Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+int main(void)
+{
+int i;
+char alfa[] = "0123456789abcdef  ";
+for (i = 0; i < 18; i++)
+{
+putchar(alfa[i]);
+}
+putchar('\n');
+return (0);
+}
