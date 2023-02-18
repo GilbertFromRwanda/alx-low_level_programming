@@ -8,8 +8,8 @@
 int main(void)
 {
 int i;
-char alfa[] = "abcdefghijklmnopqrstuvwxyz";
-for (i = 0; i < 24; i++)
+char alfa[] = "abcdefghijklmnopqrstuvwxyz  ";
+for (i = 0; i < 26; i++)
 {
 putchar(alfa[i]);
 }
