@@ -1,5 +1,5 @@
+#include<stdio.h>
 #include "main.h"
-
 /**
  * main - check the code
  *
@@ -7,5 +7,13 @@
  */
 int main(void)
 {
- return (0);
+int i=0;
+char fun[8]="_putchar";
+while (i < 8)
+{
+_putchar(fun[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
