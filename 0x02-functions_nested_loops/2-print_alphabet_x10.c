@@ -1,16 +1,11 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet_x10 - code for displaying alphabet x 10
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void);
-int main(void)
-{
-print_alphabet_x10();
-return (0);
-}
+
 void print_alphabet_x10(void)
 {
 char c;
