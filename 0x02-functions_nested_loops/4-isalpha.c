@@ -2,26 +2,11 @@
 #include<ctype.h>
 #include "main.h"
 /**
- * main - check the code
- *
+ * _isalpha - check the code
+ * @c: any integer value
  * Return: Always 0.
  */
-int _isalpha(int c);
-int main(void)
-{
-int r;
-r = _isalpha('H');
-_putchar(r + '0');
-r = _isalpha('o');
-_putchar(r + '0');
-r = _isalpha(108);
-_putchar(r + '0');
-r = _isalpha(';');
-_putchar(r + '0');
-_putchar('\n');
-return (0);
-}
 int _isalpha(int c)
 {
-return isalpha(c) > 0? 1 : 0;
+return (isalpha(c) > 0? 1 : 0);
 }
