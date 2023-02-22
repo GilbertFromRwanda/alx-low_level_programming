@@ -6,6 +6,7 @@
  *
  * Description:'The program check if given c islower'
  *
+ *@parameterc: c take any integer value
  * Return: Always 0.
  */
 
