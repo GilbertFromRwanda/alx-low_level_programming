@@ -4,7 +4,7 @@
 /**
  * _islower - check the code for checking if character is lower
  *
- * c: parameter
+ * Description:'The program check if given c islower'
  *
  * Return: Always 0.
  */
