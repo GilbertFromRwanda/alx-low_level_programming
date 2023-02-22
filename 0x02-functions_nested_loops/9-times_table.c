@@ -17,17 +17,17 @@ if (p < 10 && j !=9)
 {
 printf("%d,  ", p);
 }
-else if (p >= 10 && j !=9 )
+else if (p >= 10 && j != 9)
 {
 printf("%d, ", p);
 }
 else if (j == 9 && p > 10)
 {
-printf("  %d", p);
+printf("%d  ", p);
 }
 else
 {
-printf(" %d", p);
+printf("%d ", p);
 }
 }
 printf("\n");
