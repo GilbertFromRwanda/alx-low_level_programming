@@ -8,5 +8,5 @@
  */
 int _isalpha(int c)
 {
-return (isalpha(c) > 0? 1 : 0);
+return (isalpha(c) > 0 ? 1 : 0);
 }
