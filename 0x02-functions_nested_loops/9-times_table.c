@@ -15,6 +15,5 @@ for (j = 0; j <= 9; j++)
 p = i * j;
 printf("%d, ", p);
 }
-_putchar('\n');
 }
 }
