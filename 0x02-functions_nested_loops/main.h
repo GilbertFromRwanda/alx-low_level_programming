@@ -2,7 +2,7 @@
 #define MAIN_H
 
 void _putchar(char c);
-int  putchar(int __ c);
+int  putchar(int  c);
 
 /* _putchar*/
 void _putchar(char c)
