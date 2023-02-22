@@ -13,7 +13,7 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 p = i * j;
-nl = i * (j + 1)
+nl = i * (j + 1);
 if (nl < 10 && j !=9)
 {
 printf("%d,  ", p);
