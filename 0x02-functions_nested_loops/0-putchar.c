@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-int i=0;
-char fun[8]="_putchar";
+int i = 0;
+char fun[8] = "_putchar";
 while (i < 8)
 {
 _putchar(fun[i]);
