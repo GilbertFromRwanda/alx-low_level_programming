@@ -7,21 +7,27 @@
  */
 void jack_bauer(void)
 {
-int h=0,i=0;
+int h = 0,i = 0;
 while (h < 24)
 {
 while (i <= 59)
 {
-if (h < 10)
+if (h < 10 && i < 10)
 {
-_putchar('0');
+printf("0%d:0%d\n", h, i);
 }
-printf("%d:",h);
-if (i < 10)
+else if (i < 10 && h > 10)
 {
-_putchar('0');
+printf("%d:0%d\n", h, i);
 }
-printf("%d\n", i);
+else if (i > 10 && h < 10)
+{
+printf("0%d:%d\n", h, i);
+}
+else
+{
+printf("%d:%d\n", h, i);
+}
 i++;
 }
 i=0;
