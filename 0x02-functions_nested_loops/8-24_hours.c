@@ -16,11 +16,11 @@ if (h < 10 && i < 10)
 {
 printf("0%d:0%d\n", h, i);
 }
-else if (i < 10 && h > 10)
+else if (i < 10 && h >= 10)
 {
 printf("%d:0%d\n", h, i);
 }
-else if (i > 10 && h < 10)
+else if (i >= 10 && h < 10)
 {
 printf("0%d:%d\n", h, i);
 }
@@ -32,6 +32,5 @@ i++;
 }
 i=0;
 h++;
-_putchar('\n');
 }
 }
