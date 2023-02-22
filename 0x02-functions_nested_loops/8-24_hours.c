@@ -7,7 +7,7 @@
  */
 void jack_bauer(void)
 {
-int h = 0,i = 0;
+int h = 0, i = 0;
 while (h < 24)
 {
 while (i <= 59)
@@ -30,7 +30,7 @@ printf("%d:%d\n", h, i);
 }
 i++;
 }
-i=0;
+i = 0;
 h++;
 }
 }
