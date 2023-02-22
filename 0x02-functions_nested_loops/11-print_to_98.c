@@ -21,7 +21,7 @@ printf("%d, ", n);
 }
 printf("98\n");
 }
-else 
+else
 {
 while (n < 98)
 {
