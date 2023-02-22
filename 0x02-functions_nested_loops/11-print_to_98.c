@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "main.h"
+
 /**
  * print_to_98 - check the code
  *@n: Integer
