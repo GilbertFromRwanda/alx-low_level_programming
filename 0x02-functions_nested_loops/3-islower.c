@@ -4,10 +4,9 @@
 /**
  * _islower - check the code for checking if character is lower
  *
- * c - parameter for integer
+ * c: parameter
  *
  * Return: Always 0.
- *
  */
 
 int _islower(int c)
