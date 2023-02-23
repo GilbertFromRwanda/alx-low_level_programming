@@ -1,4 +1,3 @@
-#include<ctype.h>
 #include "main.h"
 
 /**
@@ -17,5 +16,4 @@ _putchar('0' + i);
 }
 i++;
 }
-_putchar('\n');
 }
