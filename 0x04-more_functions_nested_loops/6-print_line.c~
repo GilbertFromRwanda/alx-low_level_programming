@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+* print_line - function code
+*@n: integer value
+* Return: 0
+*/
+int main(void)
+{
+    print_line(0);
+    print_line(2);
+    print_line(10);
+    print_line(-4);
+    return (0);
+}
+
+void  print_line(int n)
+{
+int i = 1;
+if (n > 0)
+{
+while (i <= n)
+{
+putchar('_');
+i++;
+}
+putchar('\n');
+}
+else
+{
+putchar('\n');
+}
+}
