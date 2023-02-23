@@ -1,0 +1,27 @@
+#include<ctype.h>
+#include "main.h"
+
+/**
+* print_most_numbers - function code
+*
+* Return: 0
+*/
+int main(void)
+{
+    print_most_numbers();
+    return (0);
+}
+
+void print_most_numbers()
+{
+int i = 0;
+while (i < 10)
+{
+if (i != 2 && i != 4)
+{
+putchar('0' + i);
+}
+i++;
+}
+putchar('\n');
+}
