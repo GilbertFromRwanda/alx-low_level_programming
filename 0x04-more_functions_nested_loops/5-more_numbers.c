@@ -5,10 +5,10 @@
 *
 * Return: 0
 */
-void more_numbers()
+void more_numbers(void)
 {
 int i = 0, j = 0;
-while (i <= 10)
+while (i < 10)
 {
 while (j <= 14)
 {
@@ -17,7 +17,7 @@ j++;
 }
 j = 0;
 i++;
-printf("\n");
+_putchar('\n');
 }
 _putchar('\n');
 }
