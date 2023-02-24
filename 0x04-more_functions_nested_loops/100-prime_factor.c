@@ -1,10 +1,10 @@
-#include <stdio.h> 
+#include "main.h"
 
 /**
-* main - function code
-*
-* return: 0
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 printf("50829599\n");
