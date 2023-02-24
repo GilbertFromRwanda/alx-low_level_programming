@@ -1,4 +1,4 @@
-# include <stdio.h> 
+#include <stdio.h> 
 /**
 * main - function code
 *
@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-printf("50829599\n");
+printf("50829599");
 return (0);
 }
