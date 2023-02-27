@@ -12,8 +12,9 @@ if (i % 2 != 0)
 {
 --i;
 }
-for (g = i / 2; g <= i; g++)
+for (g = i / 2; g < i; g++)
 {
 _putchar(str[g]);
 }
+_putchar('\n');
 }
