@@ -6,7 +6,7 @@
 * Return: 0
 */
 
-void print_rev(char *s)
+void print_rev(char *s);
 {
-puts(strrev(str));
+printf("%s", strrev(s));
 }
