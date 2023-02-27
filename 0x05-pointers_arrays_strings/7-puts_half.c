@@ -8,13 +8,12 @@
 void puts_half(char *str)
 {
 int g, i = strlen(str);
-if(i % 2 != 0)
+if (i % 2 != 0)
 {
 --i;
 }
 for (g = i / 2; g <= i; g++)
 {
-putchar(str[g]);
+_putchar(str[g]);
 }
-putchar('\n');
 }
