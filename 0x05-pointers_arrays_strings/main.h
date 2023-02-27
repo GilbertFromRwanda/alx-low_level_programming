@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
-
+#include <string.h>
 extern void _putchar(char c);
 int  putchar(int  c);
 void reset_to_98(int *n);
