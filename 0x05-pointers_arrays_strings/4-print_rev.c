@@ -8,5 +8,10 @@
 
 void print_rev(char *s);
 {
-printf("%s", strrev(s));
+int i = strlen(s);
+while (i >= 0)
+{
+puts(s[i]);
+--i;  
+}
 }
