@@ -5,12 +5,14 @@
 *@s: string
 * Return: 0
 */
-void print_rev(char *s);
+
+void print_rev(char *s)
 {
 int i = strlen(s);
 while (i >= 0)
 {
 _putchar(s[i]);
---i;  
+--i;
 }
+_putchar('\n');
 }
