@@ -3,7 +3,7 @@
 /**
 *swap_int - function code
 *@a: address for integer
-@b: integer b address
+*@b: integer b address
 * Return: 0
 */
 void swap_int(int *a, int *b)
