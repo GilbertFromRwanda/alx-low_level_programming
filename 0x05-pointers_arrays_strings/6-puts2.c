@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* puts - function code
+* puts2 - function code
 *@str: string
 * Return: 0
 */
