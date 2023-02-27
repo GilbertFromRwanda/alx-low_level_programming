@@ -14,5 +14,4 @@ while (i >= 0)
 _putchar(s[i]);
 --i;
 }
-_putchar('\n');
 }
