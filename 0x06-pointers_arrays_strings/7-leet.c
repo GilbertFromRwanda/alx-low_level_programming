@@ -2,15 +2,13 @@
 
 /**
 * leet - function code
-*@str: string
-*
-* 
-*Return: string
+*@str: string 
+* Return: string
 */
+
 char *leet(char *str)
 {
 int i = 0;
-char *sub = "aAeEoOtTlL";
 for (i = 0; str[i] != '\0'; i++)
 {
 if (str[i] == 'a' || str[i] == 'A')
