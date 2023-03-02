@@ -4,7 +4,7 @@
 * _strcmp - function code
 *@s1: string 
 *@s2: string 
-* Return: 0
+* Return:number
 */
 int _strcmp(char *s1, char *s2)
 {
