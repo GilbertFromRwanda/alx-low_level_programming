@@ -2,21 +2,21 @@
 
 /**
 * cap_string - function code
-*@str: string
+*@s: string
 * Return: 0
 */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 int i = 0;
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-if (isspace(str[i]) > 0 || str[i] == '.' || str[i] == ',' || str[i] == ';' || str[i] == '!' || str[i] == '?' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}' || str[i] == '\"')
+if (isspace(s[i]) > 0 || s[i] == '.' || s[i] == ',' || s[i] == ';' || s[i] == '!' || s[i] == '?' || s[i] == '(' || s[i] == ')' || s[i] == '\"')
 {
-if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 {
-str[i + 1] = str[i + 1] - 32;
+s[i + 1] = s[i + 1] - 32;
 }
 }
 }
-return (str);
+return (s);
 }
