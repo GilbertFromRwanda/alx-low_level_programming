@@ -1,12 +1,12 @@
-
 #include "main.h"
 
 /**
-* reverse_array - function code
-*@a: pointer of int 
-*@n: number of element from array 
-* Return: 0
-*/
+ * reverse_array - check the code
+ *@a: pointer int
+ *@n: integer
+ *
+ * Return: always string.
+ */
 void reverse_array(int *a, int n)
 {
 int i, len, temp;
