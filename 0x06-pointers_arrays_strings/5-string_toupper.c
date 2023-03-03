@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-* string_toupper - function code
-*@str: string value 
-* Return: 0
-*/
+ * string_toupper - check the code
+ *@str: string
+ *
+ * Return: always string.
+ */
 char *string_toupper(char *str)
 {
 int i = 0;
