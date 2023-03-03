@@ -1,12 +1,11 @@
 #include "main.h"
+
 /**
  * rot13 - check the code
  *@s: string
- *@s2: string
  *
  * Return: always string.
  */
-
 char *rot13(char *s)
 {
 char *c = "ANABOBCPCDQDEREFSFGTGHUHIVIJWJKXKLYLMZMNANOBOPCPQDRERSFSTGTUHUVIVWJWXKXYLYZMZanabobcpcdqderefsfgtghuhivijwjkxklylmzmnanobopcpqdrersfstgtuhuvivwjwxkxylyzmz";
@@ -17,7 +16,7 @@ for (j = 0; c[j] != '\0'; j++)
 {
 if (s[i] == c[j])
 {
-s[i] = c[j+1];
+s[i] = c[j + 1];
 break;
 }
 }
