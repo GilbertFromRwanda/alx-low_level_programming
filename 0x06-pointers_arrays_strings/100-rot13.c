@@ -1,8 +1,4 @@
 #include "main.h"
-struct k_v
-{
-char *k,*v;
-}  
 /**
  * rot13 - check the code
  *@s: string
@@ -10,22 +6,21 @@ char *k,*v;
  *
  * Return: always string.
  */
-struct k_v kv[2];
+
 char *rot13(char *s)
 {
-char *c = "ABCDEFGHIJKLM";
-char *rc = "NOPQRSTUVWXYZ";
-char *c1 = "abcdefghijklm";
-char *rc1 = "nopqrstuvwxyz";
-int i, j, index = 0;
-char sc;
+char *c = "ANABOBCPCDQDEREFSFGTGHUHIVIJWJKXKLYLMZMNANOBOPCPQDRERSFSTGTUHUVIVWJWXKXYLYZMZanabobcpcdqderefsfgtghuhivijwjkxklylmzmnanobopcpqdrersfstgtuhuvivwjwxkxylyzmz";
+int i, j = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
 for (j = 0; c[j] != '\0'; j++)
 {
 if (s[i] == c[j])
 {
-str[i] = str[i] - 32;
+s[i] = c[j+1];
+break;
 }
-return (strcmp(s1, s2));
+}
+}
+return (s);
 }
