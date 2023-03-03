@@ -10,7 +10,7 @@ char *cap_string(char *s)
 int i = 0;
 for (i = 0; s[i] != '\0'; i++)
 {
-if (isspace(s[i]) > 0 || s[i] == '.' || s[i] == ',' || s[i] == ';' || s[i] == '!' || s[i] == '?' || s[i] == '(' || s[i] == ')' || s[i] == '\"')
+if (isspace(s[i]) > 0 || s[i] == '.')
 {
 if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 {
