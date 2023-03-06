@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strspn - function code
+* print_chessboard - function code
 *@a: string array
 * Return: nothing
 */
