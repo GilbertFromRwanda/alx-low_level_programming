@@ -20,7 +20,7 @@ return (1);
 else if (str2[i] == '*')
 {
 return (1);
-} 
+}
 else if (str1[i] == str2[i])
 {
 return (compare_s(str1, str2, i + 1));
