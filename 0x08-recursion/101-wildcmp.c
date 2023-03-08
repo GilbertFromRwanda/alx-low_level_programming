@@ -4,7 +4,7 @@
  * wildcmp - check the code
  *@s1: string 1
  *@s2: string 2
- *comapre_s(): - fun code check palidrome
+ *comapre_s: - fun code check palidrome
  *@str1: starting point
  *@str2: string given to comapre_s
  *@i: starting point
@@ -17,6 +17,10 @@ if (str1[i] == '\0' && str2[i] == '\0')
 {
 return (1);
 }
+else if (str2[i] == "*")
+{
+return (1);
+} 
 else if (str1[i] == str2[i])
 {
 return (compare_s(str1, str2, i + 1));
