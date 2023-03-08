@@ -5,6 +5,7 @@
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
+#include <math.h>
 extern void _putchar(char c);
 int  putchar(int  c);
 void _puts_recursion(char *s);
