@@ -17,7 +17,7 @@ if (index == n)
 return;
 }
 reverse(str, index + 1, n);
-puts(str[index]);
+putchar(str[index]);
 }
 void _print_rev_recursion(char *s)
 {
