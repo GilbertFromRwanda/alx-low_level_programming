@@ -17,7 +17,7 @@ if (str1[i] == '\0' && str2[i] == '\0')
 {
 return (1);
 }
-else if (str2[i] == "*")
+else if (str2[i] == '*')
 {
 return (1);
 } 
