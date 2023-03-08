@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - check the code
+ * mysqrt - fun for sqrt
  *@n:int
  *
  * mysqrt - fun to get square root
@@ -29,11 +30,11 @@ int _sqrt_recursion(int n)
 {
 float x = (float)n, eps = 0.000001, res;
 int trunc = 0;
-if( n < 0)
+if (n < 0)
 {
 return (-1);
 }
 res = mysqrt((int)n, x, eps);
-trunc =(int)res; 
+trunc = (int)res;
 return (res == trunc ? trunc : -1);
 }
