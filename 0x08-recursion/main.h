@@ -20,4 +20,5 @@ int is_prime(int n, int i);
 int is_palindrome(char *s);
 int is_poli(char *str, int s, int e);
 int wildcmp(char *s1, char *s2);
+int compare_s(char *str1, char *str2, int i);
 #endif
