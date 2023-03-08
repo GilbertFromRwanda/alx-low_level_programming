@@ -3,9 +3,10 @@
 /**
  * is_palindrome - check the code
  *@s: string
- * is_pali - fun code check palidrome
+ * is_pali: - fun code check palidrome
  *@e: int end of string
  *@s: starting point
+ *@str: string given to is_pali
  * Return: Always sizeof s.
  */
 
