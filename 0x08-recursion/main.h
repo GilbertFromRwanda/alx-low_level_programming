@@ -17,4 +17,7 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 float mysqrt(float n, float x, float eps);
 int is_prime(int n, int i);
+int is_palindrome(char *s);
+int is_poli(char *str, int s, int e);
+int wildcmp(char *s1, char *s2);
 #endif
