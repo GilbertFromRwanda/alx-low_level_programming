@@ -8,14 +8,16 @@
 */
 
 int ch(int);
-int main(int argc, char *argv[])
+int main(int argc, char  __attribute__((unused)) *argv[])
 {
 int d, r, m = 0, c = 0;
-if (argc != 1)
+if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
+else
+{
 m = atoi(argv[1]);
 if (m < 0)
 {
@@ -23,43 +25,21 @@ printf("0\n");
 }
 else
 {
-if (m >= 25)
-{
-d = m / 25 ;
-c = d;
+d = m / 25;
 r = m % 25;
-if (r == 0)
-{
-printf("%d\n", d);
-}
-else
-{
-if (r >= 10)
-{
+c = d;
 d = r / 10;
-c = c + d;
 r = r % 10;
-if (r >= 5)
-{
-d = r / 5;
 c = c + d;
+d = r / 5;
 r = r % 5;
-
-}
-}
-}
- 
-}
-else if(m >= 10)
-{
-
-}
-else if (m >= 5)
-{
-
-}
-else
-{
+c = c + d;
+d = r / 2;
+r = r % 2;
+c = c + d;
+d = r / 1;
+c = c + d;
+printf("%d\n", c);
 }
 }
 return (0);
