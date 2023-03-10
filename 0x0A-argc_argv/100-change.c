@@ -7,7 +7,6 @@
 * Return: always 0 or no zero
 */
 
-int ch(int);
 int main(int argc, char  __attribute__((unused)) *argv[])
 {
 int d, r, m = 0, c = 0;
