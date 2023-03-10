@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+* main - function code
+*@argc: count size of array
+*@argv: array og argument known as vector
+* Return: always 0 or no zero
+*/
+int main(int argc, char __attribute__((unused)) *argv[])
+{
+int c = 0;
+if (argc > 1)
+{
+while (c < argc)
+{
+c++;
+}
+}
+else
+{
+c = 0;
+}
+printf("%d\n", c);
+return (0);
+}
