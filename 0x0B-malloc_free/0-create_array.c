@@ -16,7 +16,7 @@ if (size == 0)
 return (NULL);
 }
 cp = (char *)malloc(size * sizeof(char));
-if(cp == NULL)
+if (cp == NULL)
 {
 return (NULL);
 }
