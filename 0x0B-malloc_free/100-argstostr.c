@@ -30,6 +30,6 @@ str[len++] = av[i][j];
 }
 str[len++] = '\n';
 }
-str[len]='\0';
+str[len] = "";
 return (str);
 }
