@@ -15,7 +15,11 @@ if (size == 0)
 {
 return (NULL);
 }
-cp = (char*)malloc(size * sizeof(char));
+cp = (char *)malloc(size * sizeof(char));
+if(cp == NULL)
+{
+return (NULL);
+}
 while (i < size)
 {
 cp[i] = c;
