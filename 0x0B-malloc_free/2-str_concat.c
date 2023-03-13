@@ -1,0 +1,35 @@
+#include "main.h"
+#include<string.h>
+/**
+ * str_concat - check the code
+ *@s1: given string need to be copied
+ *@s2: string
+ *
+ * Return: Always 0.
+ */
+char *str_concat(char *s1, char __attribute__((unused)) *s2)
+{
+char *str2;
+char *str3;
+/*int i, j = 0;*/
+if (s1 == NULL)
+{
+s1 = "";
+}
+if (s2 == NULL)
+{
+s2 = "";
+}
+str2 = (char*)strdup(s1);
+str3 = (char*)strdup(s2);
+if (str2 == NULL)
+{
+return (NULL);
+}
+if (str3 == NULL)
+{
+return (NULL);
+}
+strcat(str2, str3);
+return (str2);
+}
