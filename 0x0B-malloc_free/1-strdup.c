@@ -13,7 +13,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-str2 = (char*)strdup(str);
+str2 = (char *)strdup(str);
 if (str2 == NULL)
 {
 return (NULL);
