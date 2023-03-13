@@ -8,11 +8,12 @@
  *
  * Return: Always 0.
  */
-char *argstostr(int ac, char **av) {
+char *argstostr(int ac, char **av)
+{
 int i, j, len = 0;
 char *str;
 if (ac == 0 || av == NULL)
-return NULL;
+return (NULL);
 for (i = 0; i < ac; i++)
 {
 len += strlen(av[i]) + 1;
@@ -29,6 +30,5 @@ str[len++] = av[i][j];
 }
 str[len++] = '\n';
 }
-str[len] = '\0';
 return (str);
 }
