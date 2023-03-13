@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strdup - check the code
+ * free_grid - check the code
  *@grid: given pointer
  *@height: INT
  *
@@ -9,7 +9,7 @@
 void free_grid(int **grid, int height)
 {
 int i = 0;
-for ( i = 0; i < height; i++)
+for (i = 0; i < height; i++)
 {
 free(grid[i]);
 }
