@@ -20,8 +20,8 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-str2 = (char*)strdup(s1);
-str3 = (char*)strdup(s2);
+str2 = (char *)strdup(s1);
+str3 = (char *)strdup(s2);
 if (str2 == NULL)
 {
 return (NULL);
@@ -31,5 +31,6 @@ if (str3 == NULL)
 return (NULL);
 }
 strcat(str2, str3);
+free(str3);
 return (str2);
 }
