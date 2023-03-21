@@ -1,7 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include "main.h"
 #include "dog.h"
-void init_dog(struct dog *d, char *name, float age, char *owner);
 /**
  *init_dog - function for setting dog data
  *@d: object for dog
@@ -12,7 +10,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-strcpy(d->name, name);
-strcpy(d->owner, owner);
-d->age = age;
+struct dog mydog = &d;
+mydog->name = name;
+mydog->owner = owner;
+mydog->age = age;
 }
